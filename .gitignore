@@ -1,0 +1,12 @@
+# Compilation Maven
+target/
+
+# Logs de JMeter
+jmeter.log
+
+# Résultats JMeter : on garde les rapports HTML, pas les fichiers bruts (trop lourds)
+jmeter/resultats/**/*.jtl
+jmeter/resultats/**/*.log
+
+# Dossier temporaire créé par JMeter pendant la génération des rapports
+jmeter/temp/

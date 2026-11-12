@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 69781,
+    "errorCount" : 12811,
+    "errorPct" : 18.358866,
+    "meanResTime" : 1779.6135910921303,
+    "medianResTime" : 77.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 30024.0,
+    "pct1ResTime" : 3347.0,
+    "pct2ResTime" : 4295.9000000000015,
+    "pct3ResTime" : 5516.0,
+    "throughput" : 240.2199058136653,
+    "receivedKBytesPerSec" : 120.17832182934407,
+    "sentKBytesPerSec" : 43.842508662147836
+  },
+  "2 - Liste des filières" : {
+    "transaction" : "2 - Liste des filières",
+    "sampleCount" : 69781,
+    "errorCount" : 12811,
+    "errorPct" : 18.358866,
+    "meanResTime" : 1779.6135910921303,
+    "medianResTime" : 77.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 30024.0,
+    "pct1ResTime" : 3347.0,
+    "pct2ResTime" : 4295.9000000000015,
+    "pct3ResTime" : 5516.0,
+    "throughput" : 240.2199058136653,
+    "receivedKBytesPerSec" : 120.17832182934407,
+    "sentKBytesPerSec" : 43.842508662147836
+  }
+}

@@ -1,0 +1,15 @@
+services:
+  inscription:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      # Mode démo lent : passer à "true" pour montrer la dégradation des temps de réponse
+      # (équivaut à demo.slow-mode=true dans application.properties)
+      DEMO_SLOWMODE: "false"
+    # Limites de ressources : rend les mesures plus reproductibles d'une machine à l'autre
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: 1g

@@ -1,0 +1,11 @@
+package fr.univ.inscription.repository;
+
+import fr.univ.inscription.model.Inscription;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+
+public interface InscriptionRepository extends JpaRepository<Inscription, Long> {
+
+    Optional<Inscription> findByEtudiantId(Long etudiantId);
+}
